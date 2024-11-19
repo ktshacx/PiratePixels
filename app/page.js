@@ -112,7 +112,7 @@ export default function Pirates() {
   return (
     <Box>
       <Box textAlign={'center'} width={'100%'}>
-        <Text fontSize={'25px'} fontWeight={700} borderBottom={'1px solid #eee'} padding={'10px'}>PiratePixels</Text>
+        <Text fontSize={'25px'} fontWeight={700} borderBottom={'1px solid #eee'} padding={'10px'} color={'black'}>PiratePixels</Text>
       </Box>
       {!user ? 
       <Box padding={'10px'} display={'flex'} gap={'10px'}>
